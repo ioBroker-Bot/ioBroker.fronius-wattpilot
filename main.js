@@ -2,7 +2,7 @@
 
 const utils = require("@iobroker/adapter-core");
 const WebSocket = require("ws");
-const { createHash, createHmac, pbkdf2Sync } = require("crypto");
+const { createHash, createHmac, pbkdf2Sync } = require("node:crypto");
 const bcrypt = require("bcryptjs");
 
 // --- Constants ---
